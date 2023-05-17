@@ -60,8 +60,8 @@ func Work() {
 func main() {
 
 	fmt.Println("star")
-	////签到
-	//send("https://api.juejin.cn/growth_api/v1/check_in")
+	//签到
+	send("https://api.juejin.cn/growth_api/v1/check_in")
 	////抽奖
 	//send("https://api.juejin.cn/growth_api/v1/lottery/draw")
 	Work()
